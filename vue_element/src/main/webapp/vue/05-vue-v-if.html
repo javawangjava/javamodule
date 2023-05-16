@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--  v-if,v-else-if,v-else 条件性的渲染某元素，判定为true时渲染，否则不渲染   -->
+    <!-- 要实现，当 count 模型的数据是3时，在页面上展示 div1 内容；当 count 模型的数据是4时，在页面上展示 div2 内容；
+    count 模型数据是其他值时，在页面上展示 div3 。这里为了动态改变模型数据 count 的值，再定义一个输入框绑定count 模型数据。   -->
+
+    <div v-if="count==3">count=3</div>
+    <div v-else-if="count==4">count=4</div>
+    <div v-else>其他情况</div>
+    <br>
+    <input v-model="count">
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    //1. 创建Vue核心对象
+    new Vue({
+        el:"#app",
+        data(){
+            return {
+                count:3
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

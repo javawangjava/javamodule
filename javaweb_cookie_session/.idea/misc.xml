@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_ajax_json_html" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_filter_listener" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_http_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_request_response" />
+    <file type="web" url="file://$PROJECT_DIR$/../vue" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_ajax_json_html/pom.xml" />
+        <option value="$PROJECT_DIR$/../javascript/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_filter_listener/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_http_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_request_response/pom.xml" />
+        <option value="$PROJECT_DIR$/../mysql_database/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- v-show: 根据条件展示某元素，区别在于切换的是display属性的值【用于根据表达式的值来条件性地显示或隐藏元素】 -->
+    <!-- v-show: 不展示的原理是给对应的标签添加 display css属性，并将该属性值设置为 none ，这样就达到了隐藏的效果   -->
+
+    v-show: 根据条件展示某元素，区别在于切换的是display属性的值【用于根据表达式的值来条件性地显示或隐藏元素】<br>
+    <h1 v-show="ok">Hello!</h1>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    //1. 创建Vue核心对象
+    new Vue({
+        el: '#app',
+        data: {
+            ok: true
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

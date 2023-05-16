@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--在进行URL编码的时候会采用页面<meta>标签指定的UTF-8的方式进行编码-->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <!--form 是表单标签
+        action:规定form表单提交的请求地址。虚拟路径名称/资源路径名称
+        method：规定用于发送表单数据的方式。
+        通过修改页面中form表单的method属性来测试GET请求和POST请求的参数携带方式。
+    -->
+
+    <form action="/javaweb_request_response/postRequestBodyAPI" method="get">
+        <input type ="test" name="username">
+        <input type="password" name="password">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

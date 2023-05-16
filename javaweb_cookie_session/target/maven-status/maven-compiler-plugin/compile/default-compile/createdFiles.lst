@@ -1,0 +1,10 @@
+com\wang\webcookie\AddCookieURLServlet.class
+com\wang\webcookie\GetCookieURLServlet.class
+com\wang\webcookie\AddCookieServlet.class
+com\wang\websession\GetAttributeInvalidateSessionServlet.class
+com\wang\webcookie\AddCookieSetTimeServlet.class
+com\wang\webcookie\Notes.class
+com\wang\webcookie\GetCookieServlet.class
+com\wang\websession\GetAttributeSessionServlet.class
+com\wang\websession\Notes.class
+com\wang\websession\SetAttributeSessionServlet.class

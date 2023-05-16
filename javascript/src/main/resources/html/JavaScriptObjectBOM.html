@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptObject</title>
+</head>
+
+<body>
+
+<script>
+    <!-- 自定义对象  注意JS自定义对象中属性和属性值，函数名和函数类似键值对的形式 -->
+    // JS自定义对象地位类似Java中类的定义
+    var person = {
+        name: "李四",// 对象属性
+        age: 28,// 对象属性
+        eat: function (food) {// 对象的函数，注意形式
+            document.writeln(person.name + "喜欢吃" + food);
+        }
+    }
+    // 访问对象的属性： 对象名.属性名；对象名.方法名。
+    document.writeln(person.name + "的年龄" + person.age);
+    document.write("<br>");
+    person.eat("苹果");
+</script>
+
+
+
+
+<script>
+    // JavaScript中BOM(浏览器对象模型)  使用的时候参看手册：https://www.w3school.com.cn或者https://www.rookiew.com/
+
+    // Window对象：window 对象是 JavaScript 对浏览器的窗口进行封装的对象。window 对象不需要创建直接使用 window ，其中 window. 可以省略。
+    alert("弹出警告框");//alert()：显示带有一段消息和一个确认按钮的警告框。
+
+    var flag = confirm("确认删除？");// confirm()  显示带有一段消息以及确认按钮和取消按钮的对话框。点击确认按钮，返回true,点击取消按钮，返回false。
+    if (flag) {
+        document.writeln("删除成功");
+    } else {
+        document.writeln("取消删除");
+    }
+    document.writeln("3秒跳转到首页");
+    // setTimeout(function (){
+    //     location.href = "http://www.baidu.com";
+    // }, 3000);//在一定的时间间隔后执行一个function，只执行一次；
+
+    setInterval(function () {
+        location.href = "https://cn.bing.com/";
+    }, 6000);//在一定的时间间隔后执行一个function，只执行一次；
+</script>
+
+
+
+
+<script>
+    // JavaScript中BOM(浏览器对象模型)  使用的时候参看手册：https://www.w3school.com.cn或者https://www.rookiew.com/
+    // Location对象：Location 对象是 JavaScript 对地址栏封装的对象。可以通过操作该对象，跳转到任意页面。
+    var flag2 = confirm("要跳转了？");// confirm()  显示带有一段消息以及确认按钮和取消按钮的对话框。点击确认按钮，返回true,点击取消按钮，返回false。
+    if (flag2) {
+        location.href = "http://www.baidu.com";
+    } else {
+        document.writeln("取消跳转");
+    }
+</script>
+
+
+
+<script>
+    // JavaScript中BOM(浏览器对象模型)  使用的时候参看手册：https://www.w3school.com.cn或者https://www.rookiew.com/
+    //History对象:History 对象是 JavaScript 对历史记录进行封装的对象。
+    history.back();
+    history.forward();
+</script>
+
+
+</body>
+
+</html>

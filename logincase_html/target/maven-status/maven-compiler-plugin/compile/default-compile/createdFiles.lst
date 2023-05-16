@@ -1,0 +1,6 @@
+com\wang\web\LoginAndRegisterNoServiceNotes.class
+com\wang\web\RegisterNoServiceServlet.class
+com\wang\mapper\UserMapper.class
+com\wang\web\LoginNoServiceServlet.class
+com\wang\pojo\User.class
+com\wang\util\SqlSessionFactoryUtils.class

@@ -1,0 +1,11 @@
+com\wang\web\JSPTestServlet.class
+com\wang\util\SqlSessionFactoryUtils.class
+com\wang\pojo\Brand.class
+com\wang\web\jspbrandweb\JSPBrandUpdateServlet.class
+com\wang\web\JSTLTestServlet.class
+com\wang\web\jspbrandweb\JSPBrandAddServlet.class
+com\wang\mapper\BrandMapper.class
+com\wang\BrandTestNotes.class
+com\wang\web\jspbrandweb\JSPBrandSelectByIdServlet.class
+com\wang\service\BrandService.class
+com\wang\web\jspbrandweb\JSPBrandSelectAllServlet.class

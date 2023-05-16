@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logincase_html" />
+        <module name="brandcase_jsp_jstl_html" />
+        <module name="javaweb_filter_listener" />
+        <module name="logincase_jsp" />
+        <module name="javaweb_ajax_json_html" />
+        <module name="logincase_jsp_filter_listener" />
+        <module name="javaweb_jsp" />
+        <module name="javaweb_cookie_session" />
+        <module name="vue_element" />
+        <module name="javascript" />
+        <module name="brandcase_ajax_html_vue_Element" />
+        <module name="javaweb_http_servlet" />
+        <module name="brandcase_ajax_html_vue" />
+        <module name="brandcase_ajax_html" />
+        <module name="mvc" />
+        <module name="javaweb_request_response" />
+        <module name="mysql_database" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

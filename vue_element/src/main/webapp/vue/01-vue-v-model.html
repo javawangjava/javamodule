@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 输入框绑定了 username 模型数据，在页面上也使用 {{}} 绑定了 username 模型数据 -->
+    <!--v-model: 为HTML表单元素上创建双向数据绑定【用于在表单控件和 Vue 实例的数据之间创建双向数据绑定】 -->
+    <!--  {{}} 是 Vue 中定义的 插值表达式 ，在里面写数据模型，到时候会将该模型的数据值展示在这个位置-->
+
+    v-model: 为HTML表单元素上创建双向数据绑定【用于在表单控件和 Vue 实例的数据之间创建双向数据绑定】<br>
+    <input v-model="username">
+    <!--插值表达式-->
+    {{username}}
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    <!--  创建Vue核心对象 -->
+    new Vue({
+        //el ： 用来指定哪儿些标签受 Vue 管理。 该属性取值 #app 中的 app 需要是受管理的标签的id属性值
+        el: "#app",
+        //data ：用来定义数据模型// data() 是 ECMAScript 6 版本的新的写法
+        data() {
+            return {
+                username: ""
+            }
+        }
+
+        /*data:function(){
+             return{
+                 username:""
+             }
+         }*/
+    });
+</script>
+
+
+</body>
+</html>

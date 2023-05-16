@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script src="js/axios-0.18.0.js"></script>
+
+    <script>
+        axios({
+            method:"post",
+            url:"http://localhost/javaweb_ajax_json_html/axiosServlet",
+            data:"username=zhangsan"
+        }).then(function (resp){
+            alert(resp.data);
+        })
+
+    </script>
+
+</body>
+</html>

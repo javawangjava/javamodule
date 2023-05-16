@@ -1,0 +1,7 @@
+com\wang\pojo\Brand.class
+com\wang\mapper\BrandMapper.class
+com\wang\BrandCaseAjaxHtmlNotes.class
+com\wang\web\AddServlet.class
+com\wang\web\SelectAllServlet.class
+com\wang\service\BrandService.class
+com\wang\util\SqlSessionFactoryUtils.class

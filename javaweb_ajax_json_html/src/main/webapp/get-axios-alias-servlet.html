@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script src="js/axios-0.18.0.js"></script>
+
+    <script>
+        <!-- Axios请求方法起别名-->
+        // get 请求 ： axios.get(url[,config])
+        axios.get("http://localhost/javaweb_ajax_json_html/axiosServlet?username=zhangsan")
+            .then(function (resp){
+            alert(resp.data);
+        })
+
+        // axios({
+        //     method:"get",
+        //     url:"http://localhost/javaweb_ajax_json/axiosServlet?username=zhangsan",
+        // }).then(function (resp){
+        //     alert(resp.data);
+        // })
+    </script>
+
+</body>
+</html>

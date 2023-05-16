@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <!-- v-for：列表渲染，遍历容器的元素或者对象的属性；需要循环那个标签， v-for 指令就写在那个标签上-->
+    <!--
+           <标签 v-for="变量名 in 集合模型数据">
+                {{变量名}}
+           </标签>
+    -->
+    <div v-for="addr in addrs">
+        {{addr}}<br>
+    </div>
+    <br>
+    <!--   索引变量是从0开始，所以要表示序号的话，需要手动的加1 -->
+    <!--
+        <标签 v-for="(变量名,索引变量) in 集合模型数据">
+            {{索引变量 + 1}} {{变量名}}
+        </标签>
+    -->
+
+    <div v-for="(addr,i) in addrs">
+        {{i+1}}--{{addr}}<br>
+    </div>
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    //1. 创建Vue核心对象
+    new Vue({
+        el:"#app",
+        data(){
+            return {
+                addrs:["北京","上海","西安"]
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

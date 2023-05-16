@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>添加品牌</title>
+</head>
+<body>
+<h3>添加品牌</h3>
+<form action="" method="post">
+    品牌名称：<input id="brandName" name="brandName"><br>
+    企业名称：<input id="companyName" name="companyName"><br>
+    排序：<input id="ordered" name="ordered"><br>
+    描述信息：<textarea rows="5" cols="20" id="description" name="description"></textarea><br>
+    状态：
+    <input type="radio" name="status" value="0">禁用
+    <input type="radio" name="status" value="1">启用<br>
+
+    <input type="button" id="btn"  value="提交">
+</form>
+
+<script src="js/axios-0.18.0.js"></script>
+
+<script>
+    //1. 给按钮绑定单击事件
+    document.getElementById("btn").onclick = function () {
+        // 将表单数据转为json
+        // 首先我们先定义如下的一个 js 对象，该对象是用来封装页面上输入的数据，并将该对象作为上面发送异步请求时 data 属性的值。
+        var formData = {
+            brandName:"",
+            companyName:"",
+            ordered:"",
+            description:"",
+            status:"",
+        };
+        //接下来获取输入框输入的数据，并将获取到的数据赋值给 formData 对象指定的属性。比如获取用户名的输入框数据，并把该数据赋值给 formData 对象的 brandName 属性
+        // 获取表单数据
+        let brandName = document.getElementById("brandName").value;
+        // 设置数据
+        formData.brandName = brandName;
+
+        // 获取表单数据
+        let companyName = document.getElementById("companyName").value;
+        // 设置数据
+        formData.companyName = companyName;
+
+        // 获取表单数据
+        let ordered = document.getElementById("ordered").value;
+        // 设置数据
+        formData.ordered = ordered;
+
+        // 获取表单数据
+        let description = document.getElementById("description").value;
+        // 设置数据
+        formData.description = description;
+        // 我们需要判断哪儿个被选中，再将选中的单选框数据赋值给 formData 对象的 status 属性，
+        let status = document.getElementsByName("status");
+        for (let i = 0; i < status.length; i++) {
+            if(status[i].checked){
+                //
+                formData.status = status[i].value ;
+            }
+        }
+
+        console.log(formData);
+        //2. 发送ajax请求
+        axios({
+            method:"post",
+            url:"http://localhost:80/brandcase_ajax_html/addServlet",
+            data:formData
+        }).then(function (resp) {
+            // 判断响应数据是否为 success
+            if(resp.data == "success"){
+                location.href = "http://localhost:80/brandcase_ajax_html/brand.html";
+            }
+        })
+    }
+
+
+
+</script>
+</body>
+</html>

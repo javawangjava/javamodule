@@ -1,0 +1,131 @@
+<!-- html5 标识-->
+<!DOCTYPE html>
+<!--html标签是根标签，表示HTML文档-->
+<html lang="en">
+<!--head标签定义关于文档的信息-->
+<head>
+    <!-- meta：页面的字符集-->
+    <meta charset="UTF-8">
+    <!-- title 定义html页面标题名称   -->
+    <title>HTML标签</title>
+</head>
+
+<!--body 标签定义文档的主体-->
+<body>
+
+<!--<h1>~<h6>标签表示文本内容的标题标签，文本内容的标题标签中<h1>最大，<h6>最小-->
+<h1>文本内容的标题标签h1</h1>
+<h2>文本内容的标题标签h1</h2>
+<h3>文本内容的标题标签h1</h3>
+<h4>文本内容的标题标签h1</h4>
+<h5>文本内容的标题标签h1</h5>
+<h6>文本内容的标题标签h1</h6>
+
+<!--<p>标签用于定于新段落-->
+<p>
+    p标签定于新段落。<br>
+    <!--br标签用于定义换行-->
+    br标签用于定义换行。Java工程师、是做后端开发：通过Java程序从数据库中查询出来数据，然后交给页面进行展示，这样用户就能通过在浏览器通过页面看到数据。
+</p>
+
+<!--<hr>标签用于定于水平线-->
+<hr>
+
+<!--<b>标签定义粗体文本-->
+<b>
+    b标签定义粗体文本<br>
+</b>
+
+<!--<i>标签定义斜体文本-->
+<i>
+    i标签定义斜体文本<br>
+</i>
+
+<!--<u>标签定义文本下划线-->
+<u>
+    u标签定义文本下划线<br>
+</u>
+
+
+
+<!-- 布局标签 <div> 标签定义HTML文档中的一个区域部分，用来布局网页；  <span> 标签用于组合行内元素； -->
+<div>布局标签 div 标签定义HTML文档中的一个区域部分，用来布局网页。div 标签在浏览器上会有换行的效果</div>
+<div>div标签</div>
+<span>布局标签 span 标签用于组合行内元素，span 标签在浏览器上没有换行效果</span>
+<span>span标签</span>
+<br>
+
+
+
+<!--<a href="" target=""> </a>标签表示超链接-->
+<a href="https://www.baidu.com" target="_blank"> a标签定义超链接，_blank定义空白页面打开</a><br>
+<a href="https://www.baidu.com" target="_self">a标签定义超链接，_self定义当前页面打开</a><br>
+<br>
+
+<!-- 列表标签 <ol> 标签定义有序列表，<ul> 标签定义无序列表，<li> 标签定义列表项-->
+<ol>
+    <li>咖啡</li>
+    <li>牛奶</li>
+    <li>绿茶</li>
+</ol>
+
+<ol type="A">
+    <li>咖啡</li>
+    <li>牛奶</li>
+    <li>绿茶</li>
+</ol>
+
+<ul>
+    <li>咖啡</li>
+    <li>牛奶</li>
+    <li>绿茶</li>
+</ul>
+<br>
+
+<!--表格标签 <table> 标签定义表格;<tr> 标签定义表格的行；<th> 标签定义表格的表头行的单元格；<td> 标签定义表格的非表头行的单元格；-->
+<table border="1" width="500" cellspacing="0">
+    <tr align="center">
+        <th>序号</th>
+        <th>品牌logo</th>
+        <th>品牌名称</th>
+        <th>企业名称</th>
+    </tr>
+    <tr align="center">
+        <td>001</td>
+        <td><img src="../img/三只松鼠.png" width="60" height="50"></td>
+        <td>三只松鼠</td>
+        <td>三只松鼠</td>
+    </tr>
+
+    <tr align="center">
+        <td>002</td>
+        <td><img src="../img/优衣库.png" width="60" height="50"></td>
+        <td>优衣库</td>
+        <td>优衣库</td>
+    </tr>
+
+    <tr align="center">
+        <td>003</td>
+        <td><img src="../img/小米.png" width="60" height="50"></td>
+        <td>小米</td>
+        <td>小米科技有限公司</td>
+    </tr>
+</table>
+<br>
+
+
+<!--<img src="" width="" height="">标签表示图片-->
+<!-- 在该页面找pic.jpg，就需要从当前目录【文件夹】html回到上一层目录resources,在该目录下有img目录，进入该目录就可以找到pic.jpg图片-->
+<img src="../img/pic.jpg" height="400" width="300">
+<img src="../img/pic.jpg" height="20%" width="20%">
+
+<!--<audio src="" controls ></audio> 表示音频-->
+<!--<video src="" controls height="" width=""></video> 表示视频-->
+<!--该页面和audio.mp3在同一目录【文件夹】下，所以可以直接写图片的名称，也可以写成"./audio.mp3"-->
+<audio src="audio.mp3" controls></audio>
+<video src="video.mp4" controls height="20%" width="20%"></video>
+<br>
+
+
+</body>
+</html>

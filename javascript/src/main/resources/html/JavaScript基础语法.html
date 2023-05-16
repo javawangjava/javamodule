@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript:js</title>
+    <script>
+        document.writeln("只要符合语法，js脚本可以写在任意位置" + "<br>");
+    </script>
+</head>
+
+<body>
+
+<script>
+    // 内部脚本,将JS代码定义在html文件的<script>中
+    document.writeln("内部脚本,将JS代码定义在html文件的script中" + "<br>");
+</script>
+
+
+<!-- 外部脚本，将JS代码定义在外部JS文件中，在html文件中使用<script>标签的src属性将其引入 -->
+<script src="/js/javascript.js"></script>
+
+
+<script>
+
+    <!-- JS输出语句   -->
+    //  方法一：使用“\n”进行换行；方法二：使用“\r”进行换行；方法三：使用<br/>进行换行【只适用于document.write()】。
+    // 注意：“\r”的用法跟“\n”一样，在document.write()中，只起到空格的作用。
+
+    //使用window.alert()写入警告框，使用window对象访问其属性和方法时可以省略【window.】。
+    window.alert("使用window.alert()写入警告框");
+
+    // 使用document.write()写入到网页页面
+    document.write("使用document.write()写入到html输入【写入到网页页面】" + "<br>");
+
+    //   使用console.log()写入浏览器控制台
+    console.log("使用console.log()写入浏览器控制台");
+
+</script>
+
+
+<script>
+    // js变量：var 变量；let 变量；const 变量
+    var num = 20;
+    document.writeln(num + "<br>");
+
+    num = "张三";
+    document.writeln(num + "<br>");
+
+    {
+        var num = true;
+        document.writeln(num + "<br>");
+    }
+    document.writeln(num + "<br>");
+
+    {
+        let name = "李四";
+        document.writeln(name + "<br>");
+    }
+    document.writeln(name + "<br>");// let变量name没起作用
+</script>
+
+
+<script>
+    <!-- js数据类型   -->
+    var book = "平凡的世界";
+    var book2 = '平凡的世界';
+    document.writeln(typeof book + "<br>");// typeof 获得变量类型
+
+    // undefined：当声明的变量未初始化时，该变量的默认值是 undefined;
+    var age;
+    document.writeln(typeof age + "<br>");
+
+    /*
+    类型转换：
+    *其他类型转为数字：
+    *   1. string:将字符串字面值转为数字。如果字面值不是数字，则转为NaN。一般使用parseInt方法进行转换;
+    *   2. boolean:true 转为1，false 转为0。
+    *
+    * 其他类型转为 boolean
+        * 1. number：0和NaN转为false，其他的数字转为true;
+        * 2. string：空字符串转为false，其他字符串转为true;
+        * 3. null:转为false;
+        * 4. undefined：转为false
+    * */
+
+    var str = "20";
+    var str2 = "20q2";
+    var str3 = "q20q2";
+    var str4 = "qwe";
+    document.write(parseInt(str));// string:将字符串字面值转为数字
+    document.write("<br>");
+    document.write(parseInt(str2));// str2开始【前面部分】是数字，也会将前面的数字进行转换
+    document.write("<br>");
+    document.write(parseInt(str3));// str3开始【前面部分】不是数字，如果字面值不是数字，则转为NaN。
+    document.write("<br>");
+    document.write(parseInt(str4));// 如果字面值不是数字，则转为NaN
+    document.write("<br>");
+    document.write(str + 1);// 拼接字符串
+    document.write("<br>");
+    document.write(parseInt(str) + 1);// 拼接字符串
+    document.write("<br>");
+    document.write("================<br>");
+
+
+    var flag = true;
+    var flag2 = false;
+    document.write(flag + 1)
+    document.write("<br>");
+    document.write(flag)
+    document.write("<br>");
+    document.write(flag2 + 1)
+    document.write("<br>");
+    document.write(flag2)
+    document.write("<br>");
+    document.write("================<br>");
+
+
+    var flag3 = "123";
+    if (flag3) {
+        document.write(flag3)
+        document.write("<br>");
+    }
+
+    var flag4 = "";
+    if (flag4) {
+        document.write(flag4)
+        document.write("<br>");
+    }
+
+
+</script>
+
+
+<script>
+    // 运算符，只演示和java不同的
+    // ==只要求数值大小一样，不考虑类型；===要类型和值两个都一样。
+
+    document.writeln(20 == "20");
+    document.writeln(20 == 20.0);
+    document.writeln(20 === "20");
+    document.writeln(20 === 20.0);
+    document.write("<br>");
+
+</script>
+
+
+<script>
+    <!-- JS函数-->
+    //  js函数定义
+    function add(num1, num2) {
+        return num1 + num2;
+    }
+
+    document.writeln(add(10, 20));
+    document.write("<br>");
+
+</script>
+
+<script>
+    <!-- 数组对象   JavaScript数组相当于Java中集合。变长变类型   对于数组对象的方法参看js手册-->
+    var arr = new Array(1, 2, 3);
+    document.writeln(arr);
+    document.write("<br>");
+    var arr2 = ["张三", 789, true];
+    document.writeln(arr2);
+    document.write("<br>");
+    document.writeln(arr2.length);
+    document.write("<br>");
+</script>
+
+<script>
+    <!-- JS中String对象的定义和java中String对象的定义类似，方法参考Js手册   -->
+    var str = String("123");
+    var str2 = "张三";
+
+</script>
+
+</body>
+</html>

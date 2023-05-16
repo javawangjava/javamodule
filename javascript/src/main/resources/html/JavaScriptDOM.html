@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+
+<body>
+<!--
+    JavaScript中DOM(文档对象模型):DOM：Document Object Model 文档对象模型。也就是 JavaScript 将 HTML 文档的各个组成部分封装为对象
+-->
+
+<img src="/imgs/on.gif" id="lightOn" width="30%" height="30%"><br>
+<input id="movie" type="checkbox" name="hobby"> 电影
+<input id="journey" type="checkbox" name="hobby"> 旅行
+<input id="playgame" type="checkbox" name="hobby"> 游戏
+<br>
+
+<div class="str"> 张三</div>
+<br>
+<div class="str"> 李四</div>
+<br>
+
+
+<script>
+    var img = document.getElementById(lightOn);
+    setTimeout(img.src = "/imgs/off.gif", 3000);
+</script>
+
+
+<script>
+    // document.getElementsByClassName()：根据class属性值获取，返回Element对象数组【JS中数组就是Java中集合】；
+    var img = document.getElementById("lightOn");
+    alert(img);
+
+    // document.getElementsByName()：根据name属性值获取，返回Element对象数组；【返回带有指定名称的对象集合。】
+    var hobbys = document.getElementsByName("hobby");
+    for (let i = 0; i < hobbys.length; i++) {
+        hobbys[i].checked=true;
+    }
+</script>
+
+
+<script>
+    //document.getElementsByTagName()：根据标签名称获取，返回Element对象数组；【返回带有指定标签名的对象集合。】
+    var divs = document.getElementsByTagName("div");
+    for (let i = 0; i < divs.length; i++) {
+        let div = divs[i];
+        document.write(div);
+        document.write("<br>");
+    }
+</script>
+
+
+<script>
+    // document.getElementsByClassName()：根据class属性值获取，返回Element对象数组【JS中数组就是Java中集合】
+    var strs = document.getElementsByClassName("str");
+    for (let i = 0; i < strs.length; i++) {
+        let str = strs[i];
+        document.write(str);
+        document.write("<br>");
+    }
+</script>
+
+
+</body>
+
+</html>

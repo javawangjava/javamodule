@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../javaweb_ajax_json_html/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_ajax_json_html/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_filter_listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_filter_listener/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_http_servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_http_servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_jsp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_request_response/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javaweb_request_response/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

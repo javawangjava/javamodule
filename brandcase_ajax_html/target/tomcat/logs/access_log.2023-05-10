@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:42:55 +0800] "GET /brandcase_ajax_html HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:42:56 +0800] "GET /brandcase_ajax_html/ HTTP/1.1" 200 52 http-bio-80-exec-3 467
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:03 +0800] "GET /brandcase_ajax_html/brand.html HTTP/1.1" 200 3017 http-bio-80-exec-4 3
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:03 +0800] "GET /brandcase_ajax_html/js/axios-0.18.0.js HTTP/1.1" 200 12948 http-bio-80-exec-5 2
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:03 +0800] "GET /brandcase_ajax_html/selectAllServlet HTTP/1.1" 200 1709 http-bio-80-exec-6 449
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:05 +0800] "GET /brandcase_ajax_html/addBrand.html HTTP/1.1" 200 2441 http-bio-80-exec-7 2
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:11 +0800] "POST /brandcase_ajax_html/addServlet HTTP/1.1" 200 7 http-bio-80-exec-8 13
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:11 +0800] "GET /brandcase_ajax_html/brand.html HTTP/1.1" 304 - http-bio-80-exec-9 2
+0:0:0:0:0:0:0:1 - - [10/May/2023:15:43:11 +0800] "GET /brandcase_ajax_html/selectAllServlet HTTP/1.1" 200 1827 http-bio-80-exec-10 6

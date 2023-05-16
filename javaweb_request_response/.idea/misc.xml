@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../../JavaCode2/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../brandcase_ajax_html" />
+    <file type="web" url="file://$PROJECT_DIR$/../brandcase_ajax_html_vue" />
+    <file type="web" url="file://$PROJECT_DIR$/../brandcase_ajax_html_vue_Element" />
+    <file type="web" url="file://$PROJECT_DIR$/../brandcase_jsp_jstl_html" />
+    <file type="web" url="file://$PROJECT_DIR$/../javascript/brandcase_jsp_htmlajax_vue" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_ajax_json_html" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_cookie_session" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_filter_listener" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_http_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../javaweb_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../logincase_html" />
+    <file type="web" url="file://$PROJECT_DIR$/../logincase_htmllogincase_html" />
+    <file type="web" url="file://$PROJECT_DIR$/../logincase_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/../logincase_jsp_filter_listener" />
+    <file type="web" url="file://$PROJECT_DIR$/../logincase_request_response" />
+    <file type="web" url="file://$PROJECT_DIR$/../mysql_database" />
+    <file type="web" url="file://$PROJECT_DIR$/../vue" />
+    <file type="web" url="file://$PROJECT_DIR$/../vue_element" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_filter/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_cookie_session/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_http/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_http_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_filter_listener/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_ajax_json/pom.xml" />
+        <option value="$PROJECT_DIR$/../mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/../mysql_database/pom.xml" />
+        <option value="$PROJECT_DIR$/../javascript/pom.xml" />
+        <option value="$PROJECT_DIR$/../javaweb_ajax_json_html/pom.xml" />
+        <option value="$PROJECT_DIR$/../javascript_vue/pom.xml" />
+        <option value="$PROJECT_DIR$/../vue_element/pom.xml" />
+        <option value="$PROJECT_DIR$/../brandcase_jsp_htmlajax_vue/pom.xml" />
+        <option value="$PROJECT_DIR$/../mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../logincase_html/pom.xml" />
+        <option value="$PROJECT_DIR$/../logincase_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/../logincase_jsp_filter_listener/pom.xml" />
+        <option value="$PROJECT_DIR$/../brandcase_ajax_html/pom.xml" />
+        <option value="$PROJECT_DIR$/../brandcase_jsp_jstl_html/pom.xml" />
+        <option value="$PROJECT_DIR$/../brandcase_ajax_html_vue/pom.xml" />
+        <option value="$PROJECT_DIR$/../brandcase_ajax_html_vue_Element/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

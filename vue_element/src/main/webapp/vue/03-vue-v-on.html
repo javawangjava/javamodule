@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <!-- v-on: 为HTML标签绑定事件【用于在 HTML 元素上绑定事件监听器，使其能够触发 Vue 实例中的方法或函数。】使用 v-on 时还可以使用简化的写法，将 v-on: 替换成 @ 。 -->
+    <!--  v-on: 后面的事件名称是之前原生事件属性名去掉on。
+    单击事件 ： html事件属性名是 onclick，而在vue中使用是 v-on:click ；
+    失去焦点事件：html事件属性名是 onblur，而在vue中使用时 v-on:blur-->
+    <!--  在页面定义一个按钮，并给该按钮使用 v-on 指令绑定单击事件，   -->
+
+    v-on: 为HTML标签绑定事件【用于在 HTML 元素上绑定事件监听器，使其能够触发 Vue 实例中的方法或函数。】使用 v-on 时还可以使用简化的写法，将 v-on: 替换成 @ 。<br>
+    <input type="button" value="按钮1" v-on:click="show()"><br>
+    <input type="button" value="按钮2" @click="show()"><br>
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+
+    //1. 创建Vue核心对象
+    new Vue({
+        el:"#app",
+        methods:{
+            show(){
+                alert("我被点了...");
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>
